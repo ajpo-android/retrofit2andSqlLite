@@ -15,6 +15,6 @@ import retrofit2.http.Multipart;
 public interface Retrofit2andSqlLiteClient {
 
     @Headers({"Accept:text/plain"})
-    @GET("ajperalt/retrofit2andSqlLite-db/master/db.ajpo.6.json")
+    @GET("ajpo-android/retrofit2andSqlLite-db/master/db.ajpo.6.json")
     Call<ResponseBody> getdbajpo();
 }
